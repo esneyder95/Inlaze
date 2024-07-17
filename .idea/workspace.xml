@@ -84,32 +84,8 @@
       <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/URLs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/features/IniciarPrueba.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../servicio_listaR_QA/src/ArchivosCVS/Guias.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INDEX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/CerrarSesionDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/InicioSesionDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/RegistroUsuarioDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/BienvenidoInlazePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/InicioSesionPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/RegistroUsuarioPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/CerrarSesionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/IniciarSesionSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/RegistarUsuarioSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Utilis/IteractorTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Driver/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/CerrarSesion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/InicioSesion.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/RegistrarUsuario.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +101,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
