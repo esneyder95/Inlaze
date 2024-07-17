@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01ffbdaf-d497-4346-88cb-c163fa14f15c" name="Changes" comment="Pruebas_automatizadas_Inlaze">
+      <change afterPath="$PROJECT_DIR$/../Admin Recogidas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/Defitions/AbrirPaginaDefitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/PageObjects/AbrirUrlPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/PageObjects/ListarRecogidasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/PageObjects/UrlPortalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/Runner/Runner.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/Steps/DiferentesPagosSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/java/com/inter/mouse/Utils/InteractorTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/resources/Driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Automatizaciones_mouse_clicked/src/test/resources/Features/AbrirPagina.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Definitions/DiferentesPagosDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Definitions/FuncionesBasicasDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/CiudadEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ContactoDestinatarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ContenidoEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/CuentaBancariaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ImpresionGuiaPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/IndentificacionDestinatarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/InformacionEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ListarRecogidasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ListarServiciosPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/OpcionPagaEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/PesoEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/Recogidas_pagos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/UbicacionDestinatarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/PageObjects/ValorComercialEnvioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Runner/RunnerRecogidas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Steps/DiferentesPagosSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Steps/FuncionesBasicasSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Utils/DataRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/java/com/Inter/Recogidas_Casa/Utils/InteractorTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/resources/APIS/ObtenerGeoMultiZona.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/resources/Features/DiferentesPagos.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/resources/Features/FuncionesBasicas.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Recogidas_NuevoFront/Recogidas_Casa/src/test/resources/driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Definitions/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/PageObject/Ejecuciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Steps/Stepsservicios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Utils/DataCVS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Utils/DataRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/java/org/servicios/ListaRestricitiva/Utils/InteractorTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/CrearAdmisionRecogida.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/EjecutarRecogida.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/InsertarClienteListaRestrictiva.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/ObtenerInfoGuiasPorListaGuias.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/ObtenerToken.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/APIs/URLs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR/src/test/resources/features/IniciarPrueba.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../servicio_listaR_QA/src/ArchivosCVS/Guias.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INDEX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/CerrarSesionDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/InicioSesionDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Definitions/RegistroUsuarioDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/BienvenidoInlazePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/InicioSesionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/PageObjects/RegistroUsuarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/CerrarSesionSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/IniciarSesionSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Steps/RegistarUsuarioSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/inlaze/Utilis/IteractorTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Driver/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/CerrarSesion.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/InicioSesion.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/RegistrarUsuario.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2jNnSoK8gcdDyEG3VnTogfVudue" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\esneyderfromero\Desktop\Proyectos de automatizacion\test_inlaze\src\test\resources\Driver" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Start" type="JUnit" factoryName="JUnit">
+      <module name="test_inlaze" />
+      <option name="PACKAGE_NAME" value="com.test.inlaze.Runner" />
+      <option name="MAIN_CLASS_NAME" value="com.test.inlaze.Runner.Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01ffbdaf-d497-4346-88cb-c163fa14f15c" name="Changes" comment="" />
+      <created>1721236406612</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721236406612</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pruebas_automatizadas_Inlaze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pruebas_automatizadas_Inlaze" />
+  </component>
+</project>
