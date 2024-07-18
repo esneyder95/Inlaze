@@ -1,5 +1,6 @@
 package com.test.inlaze.PageObjects;
 
+import com.test.inlaze.Utilis.GenerarReporte;
 import com.test.inlaze.Utilis.IteractorTime;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.util.EnvironmentVariables;
@@ -7,7 +8,6 @@ import net.thucydides.core.util.SystemEnvironmentVariables;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import static org.junit.Assert.assertTrue;
 
 public class InicioSesionPage extends PageObject {
@@ -17,6 +17,7 @@ public class InicioSesionPage extends PageObject {
     public By BtnIngresar = By.xpath("//button[@class='btn btn-primary']");
     public By mensaje = By.xpath("//div[@class='fixed z-50 top-4 right-4 flex flex-col items-end']");
 
+    GenerarReporte generarReporte = new GenerarReporte();
     IteractorTime iteractorTime = new IteractorTime();
     WebDriverWait tiempo = new WebDriverWait(getDriver(),30);
 
@@ -48,6 +49,16 @@ public class InicioSesionPage extends PageObject {
         String[] respuesta = getDriver().findElement(mensaje).getText().split("\n");
         if (respuesta[1].equals("User not found") || respuesta[1].equals("Password doesn't match") || respuesta[1].equals("Successful registration!")){
             assertTrue(true);
+            generarReporte.TomarPantallazo();
+            if (respuesta[1].equals("Successful registration!")){
+                generarReporte.CasoExitoso("usuario se registra");
+            }
+            if (respuesta[1].equals("User not found")){
+                generarReporte.CasoExitoso("usuario inicia sesion \"Usuario no registrado\"");
+            }
+            if (respuesta[1].equals("Password doesn't match")){
+                generarReporte.CasoExitoso("usuario inicia sesion \"Contraseña errada\"");
+            }
         }else{
             assertTrue(false);
         }

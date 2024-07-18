@@ -1,5 +1,6 @@
 package com.test.inlaze.PageObjects;
 
+import com.test.inlaze.Utilis.GenerarReporte;
 import com.test.inlaze.Utilis.IteractorTime;
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
@@ -15,8 +16,8 @@ public class BienvenidoInlazePage extends PageObject {
     public By cerrarsesion = By.xpath("//ul[@class='menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52']/li[3]");
     public By correo = By.id("email");
 
+    GenerarReporte generarReporte = new GenerarReporte();
     WebDriverWait tiempo = new WebDriverWait(getDriver(),30);
-
     IteractorTime iteractorTime = new IteractorTime();
 
     public void validarnombre(String nombreId){
@@ -27,6 +28,8 @@ public class BienvenidoInlazePage extends PageObject {
         }
         if (getDriver().findElement(nombre).getText().equals(nombreId)){
             assertTrue(true);
+            generarReporte.TomarPantallazo();
+            generarReporte.CasoExitoso("usuario inicia sesion \"Usuario registrado\"");
         }else{
             assertTrue(false);
         }
@@ -40,12 +43,14 @@ public class BienvenidoInlazePage extends PageObject {
         }
         getDriver().findElement(icono).click();
         iteractorTime.esperaMilis(1000);
+        generarReporte.TomarPantallazo();
         getDriver().findElement(cerrarsesion).click();
         try {
             tiempo.until(ExpectedConditions.elementToBeClickable(correo));
         }catch (Exception e){
             throw new RuntimeException("No se cerro sesion");
         }
+        generarReporte.CasoExitoso("usuario cierra sesion");
     }
 
 }
